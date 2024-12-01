@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Railway Management Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* background-color: pink; */
+      margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* background-image: url('./check\ pic.png '); */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* This ensures the background covers the entire viewport height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      background-image: url(https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+    .login-container {
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      /* background-color:#ccc; */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: calc(100% - 20px);
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid pink
+      border-radius: 3px;
+    }
+    .login-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      /* background-color: #ffffff; */
+      cursor: pointer;
+    }
+    .login-container input[type="submit"]:hover {
+      /* background-color: #ffffff; */
+    }
+  .container{
+      margin: 0;
+      padding: 0;
+    }
+    .input{
+      background-color: #ec050500;
+      border: 0px;
+      border-bottom: 1px solid black;
+    }
+    /* .bt{
+      background-color: #ffffff;
+      width: 100px;
+    } */
+  </style>
+</head>
+<body >
+  <div class="box" style="border: 2px solid black;border-radius: 30px;width: 500px; height: 400px;display: flex;justify-content: center;align-items: center;background-color: #ffffff3b;">
+  <div class="container">
+   
+  
+   <div class="login-container">
+    <h2 >Login Page</h2>
+    <form action="railenquiry.html" method="get">
+    <input  class="input"type="text" name="username" placeholder="Username" required>
+      <input  class="input" type="password" name="password" placeholder="Password" required> 
+      <input  type="submit" value="Login"><br><br>
+      <input   type="submit" class="bt" value="forget pasword"> 
+        <input  type="checkbox" > Remember me  <br><br> 
+      
+       <a href="#">Forgot password? </a>   
+  </div>
+</div>
+</body>
+</html>

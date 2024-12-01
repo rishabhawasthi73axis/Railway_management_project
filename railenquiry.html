@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Railway Enquiry</title>
+</head>
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      /* background-color: pink; */
+      margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* background-image: url('./check\ pic.png '); */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* This ensures the background covers the entire viewport height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      background-image: url(https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3);
+    }
+    .input{
+      background-color: #ec050500;
+      border: 0px;
+      border-bottom: 1px solid black;
+    }
+</style>
+<body >
+  <div class="box" style="border: 2px solid black;border-radius: 30px;width: 600px; height: 500px;display: flex;justify-content: center;align-items: center;background-color: #ffffff3b;">
+    <div class="rtb" style="position: relative;top: -180px;left: 123px;">
+  <h1 align="center" style="color: ;">Railway Enquiry Form</h1>
+  </div>
+  <!-- <form action="#" method="get"><br> -->
+    <form action="ticket.html" method="get">
+    <label for="trainnumber" >Train Number:</label>
+    <input class="input" type="text" id="trainNumber" name="trainNumber" required><br><br>
+    
+    <label for="sourceStation">Source Station:</label>
+    <input class="input" type="text" id="sourceStation" name="sourceStation" required><br><br>
+    
+    <label for="destinationStation">Destination Station:</label>
+    <input class="input" type="text" id="destinationStation" name="destinationStation" required><br><br>
+    
+    <label for="date">Date of Travel:</label>
+    <input class="input" type="date" id="date" name="date" required><br><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</div>
+</body>
+</html>
+
+
+
